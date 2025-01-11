@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main Container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Heading Styles */
+.ju {
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 23px;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    width: 50%;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+/* Image Styles */
+.imj {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styles */
+button {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: red;
+    background-color: rgba(0, 0, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5);
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 1.2rem;
+    max-height: 70vh;
+    line-height: 1.8; /* Improve line spacing for readability */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Lyrics Text Styles */
+.lyrics {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Hover Effect on the Lyrics */
+.container:hover {
+    color: rgba(0, 0, 255, 0.8);
+    background-color: blanchedalmond;
+    box-shadow: 0 4px 6px rgba(0, 0, 255, 0.3);
+}
